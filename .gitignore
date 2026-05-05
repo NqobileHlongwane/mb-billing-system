@@ -1,0 +1,30 @@
+# NV FILES (VERY IMPORTANT)
+.env
+.env.local
+.env.development
+.env.production
+
+# NODE
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# REACT BUILD
+build/
+dist/
+
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+
+# Supabase / secrets
+.supabase/

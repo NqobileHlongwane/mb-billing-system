@@ -22,7 +22,7 @@ const app = express()
 
 
 app.use(cors({
-  origin: "https://fantastic-cupcake-c57282.netlify.app/",
+  origin: "https://fantastic-cupcake-c57282.netlify.app",
   credentials: true
 }));
 app.use(express.json())
